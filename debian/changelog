@@ -1,0 +1,5 @@
+python-keystoneauth1 (100:5.8.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/openstack/keystoneauth/releases/tag/5.8.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Tue, 27 Aug 2024 15:00:36 +0800
