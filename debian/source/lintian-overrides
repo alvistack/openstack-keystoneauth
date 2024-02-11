@@ -1,0 +1,5 @@
+python-keystoneauth1 source: file-without-copyright-information
+python-keystoneauth1 source: no-debian-changes
+python-keystoneauth1 source: source-contains-prebuilt-windows-binary
+python-keystoneauth1 source: source-is-missing
+python-keystoneauth1 source: source-package-encodes-python-version
