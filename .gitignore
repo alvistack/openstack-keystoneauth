@@ -24,3 +24,5 @@ doc/source/api
 examples/pki/certs/tmp*
 # Files created by releasenotes build
 releasenotes/build
+
+.pybuild/
