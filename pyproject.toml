@@ -1,16 +1,17 @@
 [build-system]
-requires = ["pbr>=6.1.1"]
-build-backend = "pbr.build"
+requires = ["setuptools >= 62"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "keystoneauth1"
+version = "5.17.0"
 description = "Authentication Library for OpenStack Identity"
 authors = [
     {name = "OpenStack", email = "openstack-discuss@lists.openstack.org"},
 ]
 readme = {file = "README.rst", content-type = "text/x-rst"}
-license = "Apache-2.0"
-dynamic = ["version", "dependencies"]
+license = {text = "Apache-2.0"}
+dynamic = ["dependencies"]
 requires-python = ">=3.11"
 classifiers = [
     "Environment :: OpenStack",
@@ -79,6 +80,9 @@ v3websso = "keystoneauth1.loading._plugins.identity.v3:WebSSO"
 
 [tool.setuptools.packages.find]
 include = ["keystoneauth1"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [tool.mypy]
 python_version = "3.11"
