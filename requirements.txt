@@ -15,7 +15,6 @@
 # of openstack-specific projects (allowing interaction with openstack APIs)
 # where oslo and associated transient dependencies are not desired.
 
-pbr!=2.1.0,>=2.0.0 # Apache-2.0
 iso8601>=0.1.11 # MIT
 requests>=2.14.2 # Apache-2.0
 six>=1.10.0 # MIT
